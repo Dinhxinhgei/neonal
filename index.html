@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neonal</title>
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Shippori+Mincho:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" /> 
+</head>
+<body>
+    <!-- OVERLAY -->
+    <div class="overlay"></div>
+    <!-- SCROLLTOP -->
+    <a href="#"class="scrolltop">
+        <i class="fas fa-long-arrow-alt-up scrolltop-top"></i>
+        <i class="fas fa-long-arrow-alt-up scrolltop-bottom"></i>
+    </a>
+    <!-- SLIDEBAR -->
+    <div class="slidebar bg-white">
+        <div class="slidebar__close">
+            <i class="fas fa-times slidebar-close"></i>
+        </div>
+        <div class="slidebar__appoinment">
+            <a href="#" class=" button-type-1">
+                Appoinment
+                <i class="fas fa-calendar-alt header__appoinment-icon"></i>
+            </a>
+        </div>
+        <ul class="slidebar__menu">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#service">Service</a></li>
+            <li class="slidebar__sub-menu">
+                <a href="#">
+                    Pages
+                    <i class="fas fa-caret-down slidebar__sub-menu-icon"></i>
+                </a>
+                <ul class="slidebar__sub-menu-drop fix">
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Error 404</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </li>
+            <li class="slidebar__sub-menu">
+                <a href="#">
+                    Blog
+                    <i class="fas fa-caret-down slidebar__sub-menu-icon"></i>
+                </a>
+                <ul class="slidebar__sub-menu-drop">
+                    <li><a href="#">Blog Details</a></li>
+                    <li><a href="#">Blod Details Slidebar</a></li>
+                </ul>
+            </li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="slidebar__contact">
+            <p class="slidebar__number">
+                <i class="fas fa-phone-alt slidebar-icon"></i>
+                +012 3456 789
+            </p>
+            <p class="slidebar__email">
+                <i class="fas fa-envelope-open-text slidebar-icon"></i>
+                info@example.com
+            </p>
+            <p class="slidebar__word-hour">
+                <i class="far fa-clock slidebar-icon"></i>
+                Monday - Sunday 9.00 - 18.00
+            </p>
+        </div>
+    </div>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="header__container container flex">
+            <div class="logo">
+                <a href="#">
+                    <img src="https://htmldemo.hasthemes.com/neonal/neonal/assets/images/logo/logo.png" alt="">
+                </a>
+            </div>
+            <div class="header__main">
+                <ul class="menu">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#service">Service</a></li>
+                    <li>
+                        <a href="#">Pages</a>
+                        <ul class="sub-menu">
+                            <li><a href="#">Gallery</a></li>
+                            <li><a href="#">Error 404</a></li>
+                            <li><a href="#">FAQ</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#blog">Blog</a>
+                        <ul class="sub-menu">
+                            <li><a href="#">Blog Grid</a></li>
+                            <li><a href="#">Blog Details</a></li>
+                            <li><a href="#">Blod Details Slidebar</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="header__appoinment">
+                <a href="#" class=" button-type-1">
+                    Appoinment
+                    <i class="fas fa-calendar-alt header__appoinment-icon"></i>
+                </a>
+            </div>
+            <div class="header__icon slidebar-open">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+    <!-- MAIN -->
+    <div class="main">
+        <section id="introduce" class="introduce__section section bg-primary">
+            <div class="introduce__container">
+                <div class="introduce__shape"></div>
+                <div class="introduce__slider">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="introduce__item container container-xsm flex">
+                                    <div class="introduce__item-left col-6 col-sm-12">
+                                        <h1 class="introduce__title introduce-slide-top">
+                                            Best 
+                                            <span class="introduce-word">
+                                                <span class="introduce-char" style="--index:1">m</span>
+                                                <span class="introduce-char" style="--index:2">e</span>
+                                                <span class="introduce-char" style="--index:3">d</span>
+                                                <span class="introduce-char" style="--index:4">i</span>
+                                                <span class="introduce-char" style="--index:5">c</span>
+                                                <span class="introduce-char" style="--index:6">a</span>
+                                                <span class="introduce-char" style="--index:7">l</span> 
+                                            </span>
+                                            help center.
+                                        </h1>
+                                        <p class="introduce__desc introduce-slide-top">Lorem Ipsum is simply dummy text they are printing typesetting has been the industry's standard.</p>
+                                        <div class="introduce-slide-top">
+                                            <a href="#" class="introduce__all-services button-type-2">
+                                                All services
+                                                <i class="fas fa-angle-double-right introduce__icon"></i>
+                                            </a>
+                                        </div>
+                                        <div class="introduce__item-shape"></div>
+                                    </div>
+                                    <div class="introduce__item-right col-6 col-sm-12">
+                                        <img src="https://htmldemo.hasthemes.com/neonal/neonal/assets/images/slider/1.png" alt="" class="introduce__img">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="introduce__item container container-xsm flex">
+                                    <div class="introduce__item-left col-6 col-sm-12">
+                                        <h1 class="introduce__title introduce-slide-top">
+                                            Best 
+                                            <span class="introduce-word">
+                                                <span class="introduce-char" style="--index:1">m</span>
+                                                <span class="introduce-char" style="--index:2">e</span>
+                                                <span class="introduce-char" style="--index:3">d</span>
+                                                <span class="introduce-char" style="--index:4">i</span>
+                                                <span class="introduce-char" style="--index:5">c</span>
+                                                <span class="introduce-char" style="--index:6">a</span>
+                                                <span class="introduce-char" style="--index:7">l</span> 
+                                            </span>
+                                            help center.
+                                        </h1>
+                                        <p class="introduce__desc introduce-slide-top">Lorem Ipsum is simply dummy text they are printing typesetting has been the industry's standard.</p>
+                                        <div class="introduce-slide-top">
+                                            <a href="#" class="introduce__all-services button-type-2">
+                                                All services
+                                                <i class="fas fa-angle-double-right introduce__icon"></i>
+                                            </a>
+                                        </div>
+                                        <div class="introduce__item-shape"></div>
+                                    </div>
+                                    <div class="introduce__item-right col-6 col-sm-12">
+                                        <img src="https://htmldemo.hasthemes.com/neonal/neonal/assets/images/slider/2.png" alt="" class="introduce__img">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="introduce__item container container-xsm flex">
+                                    <div class="introduce__item-left col-6 col-sm-12">
+                                        <h1 class="introduce__title introduce-slide-top">
+                                            Best 
+                                            <span class="introduce-word">
+                                                <span class="introduce-char" style="--index:1">m</span>
+                                                <span class="introduce-char" style="--index:2">e</span>
+                                                <span class="introduce-char" style="--index:3">d</span>
+                                                <span class="introduce-char" style="--index:4">i</span>
+                                                <span class="introduce-char" style="--index:5">c</span>
+                                                <span class="introduce-char" style="--index:6">a</span>
+                                                <span class="introduce-char" style="--index:7">l</span> 
+                                            </span>
+                                            help center.
+                                        </h1>
+                                        <p class="introduce__desc introduce-slide-top">Lorem Ipsum is simply dummy text they are printing typesetting has been the industry's standard.</p>
+                                        <div class="introduce-slide-top">
+                                            <a href="#" class="introduce__all-services button-type-2">
+                                                All services
+                                                <i class="fas fa-angle-double-right introduce__icon"></i>
+                                            </a>
+                                        </div>
+                                        <div class="introduce__item-shape"></div>
+                                    </div>
+                                    <div class="introduce__item-right col-6 col-sm-12">
+                                        <img src="https://htmldemo.hasthemes.com/neonal/neonal/assets/images/slider/3.png" alt="" class="introduce__img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="service" class="service__section bg-white flex fix">
+            <div class="service__img ani container-sm col-6">
+                <img src="https://htmldemo.hasthemes.com/neonal/neonal/assets/images/service/service-sector1.jpg" alt="">
+            </div>
+            <div class="service__departments container-lg container-xsm col-6 col-md-12">
+                <div class="service__list flex">
+                    <div class="service__department col-6 col-md-4 col-sm-6 col-xsm-12">
+                        <div class="service__department-container">
+                            <a href="#"class="service__department-img">
+                                <img src="https://htmldemo.hasthemes.com/neonal/neonal/assets/images/service/service-sector-1.png" alt="">
+                            </a>
+                            <div class="service__department-desc">
+                                <a href="#"class="service__department-name">Gastrology</a>
+                                <a href="#" class="service__department-detail">Detail's</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service__department col-6 col-md-4 col-sm-6 col-xsm-12">
+                        <div class="service__department-container">
+                            <a href="#"class="service__department-img">
+                                <img src="https://htmldemo.hasthemes.com/neonal/neonal/assets/images/service/service-sector-2.png" alt="">
+                            </a>
+                            <div class="service__department-desc">
+                                <a href="#"class="service__department-name">Ophthalmology</a>
+                                <a href="#" class="service__department-detail">Detail's</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service__department col-6 col-md-4 col-sm-6 col-xsm-12">
+                        <div class="service__department-container">
+                            <a href="#"class="service__department-img">
+                                <img src="https://htmldemo.hasthemes.com/neonal/neonal/assets/images/service/service-sector-3.png" alt="">
+                            </a>
+                            <div class="service__department-desc">
+                                <a href="#"class="service__department-name">Gynecology</a>
+                                <a href="#" class="service__department-detail">Detail's</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service__department col-6 col-md-4 col-sm-6 col-xsm-12">
+                        <div class="service__department-container">
+                            <a href="#"class="service__department-img">
+                                <img src="https://htmldemo.hasthemes.com/neonal/neonal/assets/images/service/service-sector-4.png" alt="">
+                            </a>
+                            <div class="service__department-desc">
+                                <a href="#"class="service__department-name">Neurology</a>
+                                <a href="#" class="service__department-detail">Detail's</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service__department col-6 col-md-4 col-sm-6 col-xsm-12">
+                        <div class="service__department-container">
+                            <a href="#"class="service__department-img">
+                                <img src="https://htmldemo.hasthemes.com/neonal/neonal/assets/images/service/service-sector-5.png" alt="">
+                            </a>
+                            <div class="service__department-desc">
+                                <a href="#"class="service__department-name">Dental Care</a>
+                                <a href="#" class="service__department-detail">Detail's</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service__department col-6 col-md-4 col-sm-6 col-xsm-12">
+                        <div class="service__department-container">
+                            <a href="#"class="service__department-img">
+                                <img src="https://htmldemo.hasthemes.com/neonal/neonal/assets/images/service/service-sector-6.png" alt="">
+                            </a>
+                            <div class="service__department-desc">
+                                <a href="#"class="service__department-name">Cosmetic Surgery</a>
+                                <a href="#" class="service__department-detail">Detail's</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="service__seemore">
+                    <a href="#" class="button-type-1">
+                        Other Service's
+                        <i class="fas fa-angle-double-right service__seemore-icon"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="about__section">
+            <div class="about__container container flex">
+                <div class="about-left bg-secondary col-6 col-md-12">
+                    <h1 class="about__title-big">Neonal medical care have 35 years of experience.</h1>
+                    <p class="about__desc-big">Lorem Ipsum is simply dummy text they are printing typesetting has been the standard.</p>
+                </div>
+                <div class="about-right bg-primary col-6 col-md-12">
+                    <div class="about-right-top">
+                        <h3 class="about__title flex">
+                            <div class="about__title-icon">
+                                <img src="https://htmldemo.hasthemes.com/neonal/neonal/assets/images/icon/1.png" alt="">
+                            </div>
+                            Our Mission
+                        </h3>
+                        <p class="about__desc">Lorem Ipsum is simply dummy text the printing and typesetting industry. Lorem Ipsum has been 
+                            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled 
+                            it to make.</p>
+                    </div>
+                    <div class="about-line"></div>
+                    <div class="about-right-bottom">
+                        <h3 class="about__title flex">
+                            <div class="about__title-icon">
+                                <img src="https://htmldemo.hasthemes.com/neonal/neonal/assets/images/icon/2.png" alt="">
+                            </div>
+                            Our Vission
+                        </h3>
+                        <p class="about__desc">Lorem Ipsum is simply dummy text the printing and typesetting industry. Lorem Ipsum has been 
+                            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled 
+                            it to make.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="choose" class="choose__section section bg-white">
+            <div class="choose__container container">
+                <h1 class="title">Why Choose Neonal?</h1>
+                <div class="title-line fix">
+                    <div class="title-line-left"></div>
+                    <div class="title-line-right"></div>
+                </div>
+                <div class="choose__list flex">
+                    <div class="col-6 col-md-12">
+                        <div class="choose__item flex">
+                            <div class="choose__item-icon">
+                                <img src="https://htmldemo.hasthemes.com/neonal/neonal/assets/images/icon/3.png" alt="">
+                                <div class="choose__dots"></div>
+                            </div>
+                            <a href="#"><h3 class="choose__item-name">Professional Staff</h3></a>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-12">
+                        <div class="choose__item flex">
+                            <div class="choose__item-icon">
+                                <img src="https://htmldemo.hasthemes.com/neonal/neonal/assets/images/icon/4.png" alt="">
+                                <div class="choose__dots"></div>
+                            </div>
+                            <a href="#"><h3 class="choose__item-name">Affordable Prices</h3></a>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-12">
+                        <div class="choose__item flex">
+                            <div class="choose__item-icon">
+                                <img src="https://htmldemo.hasthemes.com/neonal/neonal/assets/images/icon/5.png" alt="">
+                                <div class="choose__dots"></div>
+                            </div>
+                            <a href="#"><h3 class="choose__item-name">Insurance Partners</h3></a>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-12">
+                        <div class="choose__item flex">
+                            <div class="choose__item-icon">
+                                <img src="https://htmldemo.hasthemes.com/neonal/neonal/assets/images/icon/6.png" alt="">
+                                <div class="choose__dots"></div>
+                            </div>
+                            <a href="#"><h3 class="choose__item-name">24/07 Support</h3></a>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-12">
+                        <div class="choose__item flex">
+                            <div class="choose__item-icon">
+                                <img src="https://htmldemo.hasthemes.com/neonal/neonal/assets/images/icon/1.png" alt="">
+                                <div class="choose__dots"></div>
+                            </div>
+                            <a href="#"><h3 class="choose__item-name">Emergency Service</h3></a>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-12">
+                        <div class="choose__item flex">
+                            <div class="choose__item-icon">
+                                <img src="https://htmldemo.hasthemes.com/neonal/neonal/assets/images/icon/2.png" alt="">
+                                <div class="choose__dots"></div>
+                            </div>
+                            <a href="#"><h3 class="choose__item-name">Online Consultancy</h3></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="team" class="team__section bg-primary">
+            <div class="team__slider">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="team__item">
+                                <div class="container">
+                                    <div class="team__info col-5 col-md-12">
+                                        <p class="team__subtitle team-slide-left">Team members</p>
+                                        <h1 class="team__title team-slide-left">Experienced & professional staff of neonal.</h1>
+                                        <p class="team__desc team-slide-left">Lorem Ipsum is simply dummy text they are printing typesetting has been the standard.</p>
+                                        <div class="team__shape"></div>
+                                    </div>
+                                    <div class="team__member col-7 col-md-12 flex">
+                                        <div class="member__img">
+                                            <img src="https://htmldemo.hasthemes.com/neonal/neonal/assets/images/team/1.jpg" alt="">
+                                        </div>
+                                        <div class="member__info">
+                                            <h3 class="member__name">Ronald Hudson</h3>
+                                            <p class="member__service">Cardiology Specialist</p>
+                                            <p class="member__desc">Lorem Ipsum simply dummy text printing and typesetng industry has been industryS standard.</p>
+                                            <div class="member__socials bg-primary">
+                                                Follow Now:
+                                                <a href="#" class="member__social">
+                                                    <i class="fab fa-facebook-f"></i>
+                                                </a>
+                                                <a href="#" class="member__social">
+                                                    <i class="fab fa-twitter"></i>
+                                                </a>
+                                                <a href="#" class="member__social">
+                                                    <i class="fab fa-google"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="team__item">
+                                <div class="container">
+                                    <div class="team__info col-5 col-md-12">
+                                        <p class="team__subtitle team-slide-left">Team members</p>
+                                        <h1 class="team__title team-slide-left">Experienced & professional staff of neonal.</h1>
+                                        <p class="team__desc team-slide-left">Lorem Ipsum is simply dummy text they are printing typesetting has been the standard.</p>
+                                        <div class="team__shape"></div>
+                                    </div>
+                                    <div class="team__member col-7 col-md-12 flex">
+                                        <div class="member__img">
+                                            <img src="https://htmldemo.hasthemes.com/neonal/neonal/assets/images/team/2.jpg" alt="">
+                                        </div>
+                                        <div class="member__info">
+                                            <h3 class="member__name">Tenny Lubina</h3>
+                                            <p class="member__service">Cardiology Specialist</p>
+                                            <p class="member__desc">Lorem Ipsum simply dummy text printing and typesetng industry has been industryS standard.</p>
+                                            <div class="member__socials bg-primary">
+                                                Follow Now:
+                                                <a href="#" class="member__social">
+                                                    <i class="fab fa-facebook-f"></i>
+                                                </a>
+                                                <a href="#" class="member__social">
+                                                    <i class="fab fa-twitter"></i>
+                                                </a>
+                                                <a href="#" class="member__social">
+                                                    <i class="fab fa-google"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="team__slider-navigation container">
+                    <div class="slider-prev">
+                        <i class="fas fa-angle-double-left"></i>
+                    </div>
+                    <div class="slider-next">
+                        <i class="fas fa-angle-double-right"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="video-banner" class="video-banner__section section bg-white">
+            <div class="video-banner__container container">
+                <img src="https://htmldemo.hasthemes.com/neonal/neonal/assets/images/banner/video-banner.jpg" alt="" class="video-banner__thumb">
+                <h1 class="video-banner__desc">
+                    <span class="word">Neonal</span>
+                     always carefully helping patients. 
+                     <br>
+                     So, it’s a truested healthcare 
+                    <span class="word">for</span>
+                    <span class="word">your</span>
+                    <span class="word">family</span>.
+                </h1>
+                <div class="video-banner-shape">
+                    <div class="video-popup-open">
+                        <i class="fas fa-play"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="video-popup__modal">
+                <div class="video-popup-content">
+                    <div class="video-popup-close">
+                        <i class="fas fa-times"></i>
+                    </div>
+                    <iframe class="video-popup" src="https://www.youtube.com/embed/v9nBysHSzhE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div> -->
+        </section>
+        <section id="testimonial" class="testimonial__section bg-white">
+            <h1 class="title">Patients Talk About Us</h1>
+            <div class="title-line fix">
+                <div class="title-line-left"></div>
+                <div class="title-line-right"></div>
+            </div>
+            <div class="testimonial__slider container">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="testimonial__item flex">
+                                <div class="testimonial__thumb">
+                                    <img class="testimonial__thumb-img" src="https://htmldemo.hasthemes.com/neonal/neonal/assets/images/person/testimonial-1.png" alt="">
+                                    <div class="testimonial__thumb-icon">
+                                        <i class="fas fa-quote-right"></i>
+                                    </div>
+                                </div>
+                                <div class="testimonial__content">
+                                    <p class="testimonial__desc">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                                        when an unknown printer took a galley of type and scrambled it to make type specimen book has survived 
+                                        not only five centuries.</p>
+                                    <h3 class="testimonial__name">Ricardo Massey</h3>
+                                    <p class="testimonial__service">Web Developer</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testimonial__item flex">
+                                <div class="testimonial__thumb">
+                                    <img class="testimonial__thumb-img" src="https://htmldemo.hasthemes.com/neonal/neonal/assets/images/person/testimonial-1.png" alt="">
+                                    <div class="testimonial__thumb-icon">
+                                        <i class="fas fa-quote-right"></i>
+                                    </div>
+                                </div>
+                                <div class="testimonial__content">
+                                    <p class="testimonial__desc">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                                        when an unknown printer took a galley of type and scrambled it to make type specimen book has survived 
+                                        not only five centuries.</p>
+                                    <h3 class="testimonial__name">Ricardo Massey</h3>
+                                    <p class="testimonial__service">Web Developer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial__slider-navigation container">
+                    <div class="slider-navigation slider-prev">
+                        <i class="fas fa-angle-double-left"></i>
+                    </div>
+                    <div class="slider-navigation slider-next">
+                        <i class="fas fa-angle-double-right"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="blog" class="blog__section section bg-secondary-light">
+            <div class="container">
+                <div class="blog__container flex">
+                    <div class="col-5 col-md-12">
+                        <div class="blog__introduce">
+                            <img src="https://htmldemo.hasthemes.com/neonal/neonal/assets/images/blog/blog-news.jpg" alt="" class="blog__introduce-thumb">
+                            <div class="blog__introduce__desc">
+                                <p class="blog__introduce__type">Blog post</p>
+                                <h1 class="blog__introduce__title">Latest news form our blog</h1>
+                                <a href="#" class="blog__introduce__seemore button-type-1">
+                                    All Post
+                                    <i class="fas fa-angle-double-right blog__introduce__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-7 col-md-12">
+                        <div class="blog__list flex">
+                            <div class="blog__item col-6">
+                                <div class="blog__item__thumb">
+                                    <img src="https://htmldemo.hasthemes.com/neonal/neonal/assets/images/blog/blog-1.jpg" alt="">
+                                </div>
+                                <span class="blog__item__category">Medical</span>
+                                <h3 class="blog__item__title">See their doctor for many different...</h3>
+                                <p class="blog__item__desc">Lorem Ipsum simply dummy text printing and typesetng industry has been industry standard.</p>
+                                <span class="blog__item__date">09 March, 2021</span>
+                            </div>
+                            <div class="blog__item col-6">
+                                <div class="blog__item__thumb">
+                                    <img src="https://htmldemo.hasthemes.com/neonal/neonal/assets/images/blog/blog-2.jpg" alt="">
+                                </div>
+                                <span class="blog__item__category">Medical</span>
+                                <h3 class="blog__item__title">How often should you get a medical...</h3>
+                                <p class="blog__item__desc">Lorem Ipsum simply dummy text printing and typesetng industry has been industry standard.</p>
+                                <span class="blog__item__date">09 March, 2021</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact__section section bg-white">
+            <div class=" container">
+                <div class="bg-secondary contact__container">
+                    <div class="contact__shape">
+                        <div class="contact__shape-1 bg-primary"></div>
+                        <div class="contact__shape-2 bg-secondary-light"></div>
+                        <div class="contact__shape-3 bg-primary"></div>
+                    </div>
+                    <div class="contact__content">
+                        <h1 class="contact__title">You can contact for appoinment.</h1>
+                        <div class="contact__info">
+                            <div class="contact__item">
+                                <div class="contact__item-icon">
+                                    <i class="fas fa-phone-alt"></i>
+                                </div>
+                                <div class="contact__item-info">
+                                    <h5 class="contact__item-title">Call Us:</h5>
+                                    <a href="#">+00 89 458 648</a>
+                                </div>
+                            </div>
+                            <div class="contact__item">
+                                <div class="contact__item-icon">
+                                    <i class="fas fa-envelope-open-text"></i>
+                                </div>
+                                <div class="contact__item-info">
+                                    <h5 class="contact__item-title">Email Us:</h5>
+                                    <a href="#">neonal@gmail.com</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- FOOTER -->
+    <footer class="footer__section bg-primary">
+        <div class="footer__container">
+            <div class="footer__top">
+                <div class="container">
+                    <div class="footer__content flex">
+                        <div class="col-4 col-lg-3 col-md-6 col-sm-12">
+                            <div class="footer-column footer__info">
+                                <div class="logo">
+                                    <a href="#">
+                                        <img src="https://htmldemo.hasthemes.com/neonal/neonal/assets/images/logo/logo.png" alt="">
+                                    </a>
+                                </div>
+                                <p class="footer__desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry.has been since the printer took.</p>
+                                <div class="footer__appoinment">
+                                    <a href="#" class=" button-type-1">
+                                        Appoinment
+                                        <i class="fas fa-calendar-alt header__appoinment-icon"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-2 col-lg-2 col-md-6 col-sm-6 col-xsm-12">
+                            <div class="footer-column footer__quick-links">
+                                <h4 class="footer__title">Quick Links</h4>
+                                <ul class="footer__list">
+                                    <li>
+                                        <a href="#">
+                                            <i class="fas fa-plus footer__list-icon"></i>
+                                            About Us
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fas fa-plus footer__list-icon"></i>
+                                            Service
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fas fa-plus footer__list-icon"></i>
+                                            Doctors
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fas fa-plus footer__list-icon"></i>
+                                            Departments
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fas fa-plus footer__list-icon"></i>
+                                            Online Payment
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fas fa-plus footer__list-icon"></i>
+                                            Contact Us
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fas fa-plus footer__list-icon"></i>
+                                            My Account
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-2 col-lg-3 col-md-6 col-sm-6 col-xsm-12">
+                            <div class="footer-column footer__neonal-services">
+                                <h4 class="footer__title">Neonal Services</h4>
+                                <ul class="footer__list">
+                                    <li>
+                                        <a href="#">
+                                            <i class="fas fa-plus footer__list-icon"></i>
+                                            Pediatric Clinic
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fas fa-plus footer__list-icon"></i>
+                                            Diagnosis Clinic
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fas fa-plus footer__list-icon"></i>
+                                            Cardiac Clinic
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fas fa-plus footer__list-icon"></i>
+                                            Laboratory Analysis
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fas fa-plus footer__list-icon"></i>
+                                            Gynecological Clinic
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fas fa-plus footer__list-icon"></i>
+                                            Personal Counseling
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fas fa-plus footer__list-icon"></i>
+                                            Dental Clinic
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-4 col-lg-4 col-md-6 col-sm-12">
+                            <div class="footer-column footer__working-hours">
+                                <div>
+                                    <h4 class="footer__title">Working Hours</h4>
+                                    <ul class="footer__list">
+                                        <li>
+                                            <span>Monday</span>
+                                            <span>-</span>
+                                            <span>10 am to 07 pm</span>
+                                        </li>
+                                        <li>
+                                            <span>Tuesday</span>
+                                            <span>-</span>
+                                            <span>10 am to 07 pm</span>
+                                        </li>
+                                        <li>
+                                            <span>Wednesday</span>
+                                            <span>-</span>
+                                            <span>10 am to 07 pm</span>
+                                        </li>
+                                        <li>
+                                            <span>Thursday</span>
+                                            <span>-</span>
+                                            <span>10 am to 07 pm</span>
+                                        </li>
+                                        <li>
+                                            <span>Friday</span>
+                                            <span>-</span>
+                                            <span>10 am to 07 pm</span>
+                                        </li>
+                                        <li>
+                                            <span>Saturday</span>
+                                            <span>-</span>
+                                            <span>10 am to 07 pm</span>
+                                        </li>
+                                        <li>
+                                            <span>Sunday</span>
+                                            <span>-</span>
+                                            <span class="working-hours-close">Close</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__shape footer__shape-1"></div>
+                <div class="footer__shape footer__shape-2"></div>
+            </div>
+            <div class="footer__bottom container">
+                <div class="footer__bottom__container flex">
+                    <p class="footer__copyright">
+                        © 2021 <span>Neonal</span> Made with 
+                        <i class="fas fa-heart"></i>
+                         by 
+                        <a href="#">HasThemes.</a>
+                    </p>
+                    <ul class="footer__menu">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Affiliates</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">News</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Animejs -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <!-- Swiper -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Javascript -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/swiper.js"></script>
+    <script src="assets/js/test.js"></script>
+</body>
+</html>
